@@ -1,0 +1,65 @@
+version: "3.1"
+
+stories:
+
+  - story: Greet user and Need help
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: help
+      - action: utter_help
+
+  - story: About bot
+    steps:
+      - intent: about_bot
+      - action: utter_about_bot
+
+  - story: Software Architecture
+    steps:
+      - intent: architecture_sw
+      - action: utter_architecture_sw
+
+  - story: Microservices
+    steps:
+      - intent: microservices
+      - action: utter_microservices
+
+  - story: Monolith Architecture
+    steps:
+      - intent: monolith
+      - action: utter_monolith
+
+  - story: About documentation
+    steps:
+      - intent: documentation
+      - action: utter_documentation
+
+  - story: Sharding and Replication
+    steps:
+      - intent: sharding_replication
+      - action: utter_sharding_replication
+
+  - story: CI/CD Pipeline
+    steps:
+      - intent: cicd_pipeline
+      - action: utter_cicd_pipeline
+
+  - story: Caching
+    steps:
+      - intent: caching
+      - action: utter_caching
+
+  - story: Monitoring
+    steps:
+      - intent: monitoring
+      - action: utter_monitoring
+
+  - story: Create AI/ML Chatbot
+    steps:
+      - intent: create_ai_ml_chatbot
+      - action: utter_create_ai_ml_chatbot
+
+  - story: Say goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
