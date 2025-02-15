@@ -1,0 +1,68 @@
+version: "3.1"
+
+rules:
+
+  - rule: Greet user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Need help
+    steps:
+      - intent: help
+      - action: utter_help
+
+  - rule: About bot
+    steps:
+      - intent: about_bot
+      - action: utter_about_bot
+
+  - rule: Software Architecture
+    steps:
+      - intent: architecture_sw
+      - action: utter_architecture_sw
+
+  - rule: Microservices
+    steps:
+      - intent: microservices
+      - action: utter_microservices
+
+  - rule: Monolith Architecture
+    steps:
+      - intent: monolith
+      - action: utter_monolith
+
+  - rule: About documentation
+    steps:
+      - intent: documentation
+      - action: utter_documentation
+
+  - rule: Sharding and Replication
+    steps:
+      - intent: sharding_replication
+      - action: utter_sharding_replication
+
+  - rule: CI/CD Pipeline
+    steps:
+      - intent: cicd_pipeline
+      - action: utter_cicd_pipeline
+
+  - rule: Caching
+    steps:
+      - intent: caching
+      - action: utter_caching
+
+  - rule: Monitoring
+    steps:
+      - intent: monitoring
+      - action: utter_monitoring
+
+  - rule: Create AI/ML Chatbot
+    steps:
+      - intent: create_ai_ml_chatbot
+      - action: utter_create_ai_ml_chatbot
+
+  - rule: Say goodbye user
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
